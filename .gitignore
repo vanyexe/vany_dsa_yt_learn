@@ -1,0 +1,15 @@
+# C/C++ compiled files
+*.exe
+*.out
+*.obj
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code logs
+.vscode/*.log

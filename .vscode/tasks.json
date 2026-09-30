@@ -20,6 +20,27 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Vany DSA: Push to GitHub",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${workspaceFolder}\\.vscode\\push-dsa.ps1"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "focus": false,
+                "clear": false
+            },
+            "problemMatcher": []
         }
     ]
 }
