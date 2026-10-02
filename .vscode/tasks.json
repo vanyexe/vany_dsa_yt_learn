@@ -34,12 +34,6 @@
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared",
-                "focus": false,
-                "clear": false
-            },
             "problemMatcher": []
         }
     ]
